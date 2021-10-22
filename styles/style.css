@@ -561,15 +561,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .dashboard-section .slider-container .swiper .swiper-wrapper .swiper-slide:nth-child(1) .slider-bg-img {
-  background-image: url("/src/assets/imgs/dashboard/slide1.jpg");
+  background-image: url("../assets/imgs/dashboard/slide1.jpg");
 }
 
 .dashboard-section .slider-container .swiper .swiper-wrapper .swiper-slide:nth-child(2) .slider-bg-img {
-  background-image: url("/src/assets/imgs/dashboard/slide2.jpg");
+  background-image: url("../assets/imgs/dashboard/slide2.jpg");
 }
 
 .dashboard-section .slider-container .swiper .swiper-wrapper .swiper-slide:nth-child(3) .slider-bg-img {
-  background-image: url("/src/assets/imgs/dashboard/slide3.jpg");
+  background-image: url("../assets/imgs/dashboard/slide3.jpg");
 }
 
 .dashboard-section .slider-container .swiper .slider-switcher-wrapper .swiper-pagination {
@@ -710,11 +710,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .main-section .container .baners-container__baner-holder .baner1-img {
-  background-image: url("/src/assets/imgs/dashboard/baner1.jpg");
+  background-image: url("../assets/imgs/dashboard/baner1.jpg");
 }
 
 .main-section .container .baners-container__baner-holder .baner2-img {
-  background-image: url("/src/assets/imgs/dashboard/baner2.jpg");
+  background-image: url("../assets/imgs/dashboard/baner2.jpg");
 }
 
 .main-section .container .baners-container .baner-reverse {
