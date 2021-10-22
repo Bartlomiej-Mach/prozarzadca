@@ -1,0 +1,51 @@
+// styling primary button
+
+.btn-primary {
+    padding: 10px 30px;
+    background-color: $color-yellow;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    .button-value {
+        position: relative;
+        font-size: $font-text;
+        font-weight: $font-semi-bold;
+        font-family: $font-spartan;
+        color: $color-black;
+    }
+    &::before {
+        width: 9px;
+        height: 9px;
+        content: '';
+        background-color: $color-red;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        transition: .2s;
+    }
+    &:hover::before {
+        width: 100%;
+        height: 100%;
+    }
+    @include break-point-down(mb) {
+        display: block;
+        text-align: center;
+    }
+}
+
+.btn-secondary {
+    color: $color-yellow-active;
+    position: relative;
+    display: inline-block;
+    font-size: $font-h3-mobile;
+    @include break-point-down(md) {
+        font-size: $font-text;
+    }
+    img {
+        transition: .2s;
+    }
+    &:hover img {
+        transform: translateX(5px);
+    }
+}

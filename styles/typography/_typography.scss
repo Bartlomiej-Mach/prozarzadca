@@ -1,0 +1,97 @@
+// Sizes
+
+
+$font-h1-desktop: 9rem;
+$font-h1-mobile: 4.5rem;
+
+$font-h2-desktop: 6rem;
+$font-h2-mobile: 3.8rem;
+
+$font-h3-desktop: 3.6rem;
+$font-h3-mobile: 2.2rem;
+
+$font-h4-desktop: 2.6rem;
+$font-h4-mobile: 1.8rem;
+
+$font-text: 1.8rem;
+$font-mobile: 1.6rem;
+
+// Weight
+
+$font-regular: 400;
+$font-semi-bold: 600;
+
+// font family
+
+$font-anton: 'Anton', sans-serif;
+$font-spartan: 'Spartan', sans-serif;
+
+
+// baisic typography
+html { 
+    font-size: 10px; 
+}
+
+h1 {
+    font-size: $font-h1-desktop;
+    font-weight: $font-regular;
+    color: $color-yellow;
+    font-family: $font-anton;
+    text-transform: uppercase;
+    @include break-point-down(md) {
+        font-size: $font-h1-mobile;
+        line-height: 44px;
+    }
+}
+
+h2 {
+    font-size: $font-h2-desktop;
+    font-weight: $font-regular;
+    font-family: $font-anton;
+    text-transform: uppercase;
+    @include break-point-down(md) {
+        font-size: $font-h2-mobile;
+        line-height: 44px;
+    }
+}
+
+h3 {
+    font-size: $font-h3-desktop;
+    font-weight: $font-regular;
+    font-family: $font-anton;
+    @include break-point-down(md) {
+        font-size: $font-h3-mobile;
+    }
+}
+
+h4 {
+    font-size: $font-h4-desktop;
+    font-weight: $font-semi-bold;
+    font-family: $font-spartan;
+    @include break-point-down(md) {
+        font-size: $font-h4-mobile;
+    }
+}
+
+p,
+span {
+    font-family: $font-spartan;
+    font-weight: $font-regular;
+    font-size: $font-text;
+    @include break-point-down(mb) {
+        font-size: $font-mobile;
+    }
+}
+
+a {
+    text-decoration: none;
+    font-size: $font-text;
+    font-weight: $font-semi-bold;
+    font-family: $font-spartan;
+}
+
+ul {
+    li {
+        list-style: none;
+    }
+}

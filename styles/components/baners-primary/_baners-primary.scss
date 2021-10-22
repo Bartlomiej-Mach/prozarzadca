@@ -1,0 +1,141 @@
+.main-section {
+    width: 100%;
+    padding: 140px 0 100px 0;
+    .container {
+        .baners-container {
+            width: 100%;
+            &__heading-holder {
+                margin-bottom: 40px;
+                &--heading {
+                    color: $color-yellow;
+                }
+            }
+            &__baner-holder {
+                width: 100%;
+                position: relative;
+                display: flex;
+                
+                &--img-container {
+                    width: 50%;
+                    display: block;
+                    position: relative;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    
+                    &::before {
+                        width: 20px;
+                        height: 100%;
+                        content: '';
+                        background-color: $color-yellow;
+                        left: 0;
+                        top: 0;
+                        position: absolute;
+                    }
+                }
+                &--content-container {
+                    width: 50%;
+                    position: relative;
+                    padding: 40px 30px;
+                    margin: 37px 0;
+                    background-color: $color-white;
+                    .baners-list {
+                        width: 100%;
+                        &--item {
+                            margin-bottom: 20px;
+                            display: flex;
+                            align-items: flex-start;
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                            i {
+                                font-size: 25px;
+                                margin-right: 15px;
+                            }
+                            span {
+                                display: block;
+                                font-size: $font-h3-mobile;
+                                font-weight: $font-semi-bold;
+                            }
+                        }
+                    }
+                    .btn-holder {
+                        margin-top: 60px;
+                    }
+                }
+                .baner1-img {
+                    background-image: url('/src/assets/imgs/dashboard/baner1.jpg');
+                }
+                .baner2-img {
+                    background-image: url('/src/assets/imgs/dashboard/baner2.jpg');
+                }
+            }
+            .baner-reverse {
+                margin-top: 70px;
+                flex-direction: row-reverse;
+                .baners-container__baner-holder--img-container {
+                    &::before {
+                        left: calc(100% - 20px);
+                        @include break-point-down(md) {
+                            left: calc(100% - 11px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include break-point-down(md) {
+    .main-section {
+        padding: 40px 0;
+        .container {
+            .baners-container {
+                &__heading-holder {
+                    margin-bottom: 20px;
+                }
+                &__baner-holder,
+                .baner-reverse {
+                    flex-direction: column;
+
+                    &--img-container {
+                        width: 100%;
+                        height: 300px;
+                        @include break-point-down(mb) {
+                            height: 151px;
+                        }
+                        &::before {
+                            width: 11px;
+                        }
+                    }
+                    &--content-container {
+                        width: 100%;
+                        margin: 0;
+                        padding: 25px 15px;
+                        .baners-list {
+                            &--item {
+                                margin-bottom: 15px;
+                                i {
+                                    font-size: 20px;
+                                    margin-right: 10px;
+                                }
+                                span {
+                                    font-size: $font-text;
+                                    @include break-point-down(mb) {
+                                        font-size: $font-mobile;
+                                    } 
+                                }
+                            }
+                        }
+                        .btn-holder {
+                            margin-top: 40px;
+                        }
+                    }
+                }
+                .baner-reverse {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
