@@ -38,6 +38,7 @@ h1 {
     color: $color-yellow;
     font-family: $font-anton;
     text-transform: uppercase;
+    word-wrap: break-word;
     @include break-point-down(md) {
         font-size: $font-h1-mobile;
         line-height: 44px;

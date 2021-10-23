@@ -60,6 +60,9 @@
     .stocks-img {
         background-image: url('../assets/imgs/stocks/stocks1.jpg');
     }
+    .builds-img {
+        background-image: url('../assets/imgs/dashboard/slide3.jpg');
+    }
 }
 
 @include break-point-down(md) {

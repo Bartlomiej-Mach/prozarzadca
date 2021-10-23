@@ -1,0 +1,94 @@
+.buildings-section {
+    width: 100%;
+    margin-top: 80px;
+    .container {
+        .buildings-container {
+            width: 100%;
+            display: flex;
+            &__content-holder {
+                width: 50%;
+                padding-right: 30px;
+                &--heading {
+                    color: $color-yellow;
+                }
+                &--paragraph {
+                    color: $color-white;
+                    margin-top: 20px;
+                }
+                &--subheading {
+                    color: $color-white;
+                    margin: 30px 0;
+                }
+            }
+            &__img-holder {
+                width: 50%;
+                display: flex;
+                justify-content: flex-end;
+                padding: 0 40px;
+                &--img-container {
+                    position: relative;
+                    &::after {
+                        content: '';
+                        width: calc(100% + 80px);
+                        height: 280px;
+                        position: absolute;
+                        background-color: $color-yellow;
+                        bottom: -40px;
+                        left: -40px;
+                        z-index: 0;
+                    }
+                    .personal-img {
+                        max-width: 415px;
+                        z-index: 2;
+                        position: relative;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@include break-point-down(md) {
+    .buildings-section {
+        margin-top: 40px;
+        .container {
+            .buildings-container {
+                flex-direction: column;
+                overflow: hidden;
+                &__content-holder {
+                    width: 100%;
+                    padding-right: 0;
+                    &--paragraph {
+                        margin-top: 20px;
+                    }
+                    &--subheading {
+                        margin: 20px 0;
+                    }
+                }
+                &__img-holder {
+                    width: 100%;
+                    margin-top: 40px;
+                    padding: 0;
+                    justify-content: center;
+                    &--img-container {
+                        padding: 20px 30px;
+                        &::after {
+                            width: 100%;
+                            left: 0;
+                            height: 180px;
+                            bottom: -29px;
+                        }
+                        .personal-img {
+                            max-width: 272px;
+                            z-index: 2;
+                            position: relative;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
