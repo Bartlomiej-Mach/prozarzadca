@@ -123,7 +123,14 @@
                     }
                     &--copyright {
                         text-align: center;
-                        
+                        .copyright {
+                            color: $color-white;
+                            a {
+                                @include break-point-down(mb) {
+                                    font-size: $font-mobile;
+                                }
+                            }
+                        }
                     }
                     &--social {
                         display: none;

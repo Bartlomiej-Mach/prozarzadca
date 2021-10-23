@@ -57,6 +57,9 @@
     .about-img {
         background-image: url('../assets/imgs/personal/about1.jpg');
     }
+    .stocks-img {
+        background-image: url('../assets/imgs/stocks/stocks1.jpg');
+    }
 }
 
 @include break-point-down(md) {
