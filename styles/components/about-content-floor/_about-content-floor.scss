@@ -1,0 +1,108 @@
+.about-company {
+    width: 100%;
+    margin: 80px 0;
+    .container {
+        .about-company-container {
+            width: 100%;
+            &__heading-holder {
+                margin-bottom: 40px;
+                &--heading {
+                    color: $color-yellow;
+                }
+            }
+            &__content-floor {
+                width: 100%;
+                display: flex;
+                &:last-child {
+                    margin-top: 70px;
+                }
+                &--text-holder {
+                    width: 50%;
+                    padding: 0 30px 0 0;
+                    .about-text-paragraph {
+                        color: $color-white;
+                        margin-bottom: 20px;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                    .about-text-heading {
+                        color: $color-yellow;
+                        margin-bottom: 40px;
+                    }
+                    .about-button-holder {
+                        margin-top: 40px;
+                    }
+                }
+                &--img-holder {
+                    width: 50%;
+                    display: block;
+                    position: relative;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    &::before {
+                        width: 100%;
+                        height: 10px;
+                        content: '';
+                        background-color: $color-yellow;
+                        left: 0;
+                        bottom: 0;
+                        position: absolute;
+                    }
+                }
+                .about1-img {
+                    background-image: url('../assets/imgs/about/about1.jpg');
+                }
+                .about2-img {
+                    background-image: url('../assets/imgs/dashboard/company1.jpg');
+                }
+            }
+            .content-reverse {
+                flex-direction: row-reverse;
+                .about-company-container__content-floor--text-holder {
+                    width: 50%;
+                    padding: 0 0 0 30px;
+                }
+            }
+        }
+    }   
+}
+
+@include break-point-down(md) {
+    .about-company {
+        margin: 30px 0;
+        .container {
+            .about-company-container {
+                &__heading-holder {
+                    margin-bottom: 20px;
+                }
+                &__content-floor {
+                    flex-direction: column;
+
+                    &--img-holder  {
+                        width: 100%;
+                        height: 200px;
+                    }
+                    &--text-holder {
+                        width: 100%;
+                        padding: 0 0 20px 0;
+                        .about-text-heading {
+                            margin-bottom: 20px;
+                        }
+                        .about-button-holder {
+                            margin-top: 30px;
+                        }
+                    }
+                }
+                .content-reverse {
+                    flex-direction: column;
+                    .about-company-container__content-floor--text-holder {
+                        width: 100%;
+                        padding: 0 0 20px 0px;
+                    }
+                }
+            }
+        }
+    }
+}

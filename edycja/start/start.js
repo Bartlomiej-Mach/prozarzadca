@@ -41,6 +41,13 @@ let content = {
     baner2napis4: 'Pomoc we wszystkich formalnosciach',
 
 
+    /* 
+        EDYTUJ CZĘŚC POD BANERAMI
+    */
+
+    oMalyNaglowek: 'poznaj nas bliżej',
+    oParagraf: `Wynajmem powierzchni Prod Magazynowych zajmujemy się od ponad 20 lat. Początki firmy
+                sięgają roku 1998– to wtedy wynajęliśmy pierwszą...`,
 
 
 
@@ -108,6 +115,8 @@ const baner2text2 = document.querySelector('.baner2-text2');
 const baner2text3 = document.querySelector('.baner2-text3');
 const baner2text4 = document.querySelector('.baner2-text4');
 
+const aboutSub = document.querySelector('.content-heading');
+const aboutParagraph = document.querySelector('.content-paragraph');
 
 slide1h1.innerHTML = content.glownyNapis1;
 slide1h2.innerHTML = content.naglowek1;
@@ -130,3 +139,6 @@ baner2text1.innerHTML = content.baner2napis1;
 baner2text2.innerHTML = content.baner2napis2;
 baner2text3.innerHTML = content.baner2napis3;
 baner2text4.innerHTML = content.baner2napis4;
+
+aboutSub.innerHTML = content.oMalyNaglowek;
+aboutParagraph.innerHTML = content.oParagraf;
