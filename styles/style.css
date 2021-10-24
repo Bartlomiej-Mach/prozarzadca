@@ -1871,19 +1871,10 @@ body::-webkit-scrollbar-thumb {
   position: relative;
 }
 
-.map-contact-section .container .map-contact-container::after {
-  width: 100%;
-  height: 10px;
-  background-color: #D9F958;
-  bottom: 0;
-  left: 0;
-  content: '';
-  position: absolute;
-}
-
 .map-contact-section .container .map-contact-container--map {
   width: 100%;
   border: none;
   height: 390px;
+  border-bottom: 10px solid #D9F958;
 }
 /*# sourceMappingURL=style.css.map */
