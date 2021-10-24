@@ -63,6 +63,9 @@
     .builds-img {
         background-image: url('../assets/imgs/dashboard/slide3.jpg');
     }
+    .contact-img {
+        background-image: url('../assets/imgs/dashboard/baner2.jpg');
+    }
 }
 
 @include break-point-down(md) {

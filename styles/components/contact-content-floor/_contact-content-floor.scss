@@ -1,0 +1,133 @@
+.company-contact-section {
+    width: 100%;
+    margin-top: 80px;
+    .container {
+        .contact-content-form-container {
+            width: 100%;
+            display: flex;
+            &__content-holder--container {
+                width: 50%;
+                padding-right: 50px;
+                &--content {
+                    padding: 0 30px 18px 30px;
+                    background-color: $color-white;
+                    position: relative;
+                    &::before {
+                        width: 10px;
+                        height: 100%;
+                        left: 0;
+                        top: 0;
+                        content: '';
+                        background-color: $color-yellow;
+                        position: absolute;
+                    }
+                    &--heading {
+                        margin-bottom: 15px;
+                    }   
+                    &--subheading {
+                        margin-bottom: 10px;
+                    }
+                    &--contact-text {
+                        margin-bottom: 30px;
+                        display: block;
+                        a {
+                            color: $color-yellow-active;
+                            @include break-point-down(mb) {
+                                font-size: $font-mobile;
+                            }
+                        }
+                    }
+                }
+                &--links {
+                    display: flex;
+                    flex-direction: column;
+                    &--heading {
+                        color: $color-yellow;
+                        margin: 30px 0 15px 0;
+
+                    }
+                    .btn-secondary {
+                        margin-bottom: 15px;
+                        &:last-child {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            &__form-holder {
+                width: 50%;
+                background-color: #0F0F0F;
+                padding: 30px 50px 40px 50px;
+                .contact-form {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    input,
+                    textarea {
+                        width: 100%;
+                        padding: 15px;
+                        background-color: #393939;
+                        font-size: $font-text;
+                        color: $color-white;
+                        border: none;
+                        border-bottom: 2px solid $color-yellow;
+                        margin-bottom: 40px;
+                        font-family: $font-spartan;
+                    }
+                    input:focus,
+                    textarea:focus  {
+                        outline: 1px solid $color-yellow-active;
+                    }
+                    
+                    textarea {
+                        max-width: 485px;
+                        height: 200px;
+                        max-height: 200px;
+                        
+                    }
+                    button {
+                        display: inline-block;
+                        background-color: transparent;
+                        border: none;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@include break-point-down(md) {
+    .company-contact-section {
+        margin-top: 40px;
+        .container {
+            .contact-content-form-container {
+                flex-direction: column;
+                &__content-holder--container {
+                    width: 100%;
+                    padding-right: 0px;
+                    &--content {
+                        padding: 0 20px 5px 20px;
+                        &--heading {
+                            margin-bottom: 10px;
+                        } 
+                        &--contact-text {
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+                &__form-holder {
+                    margin-top: 30px;
+                    width: 100%;
+                    padding: 30px 10px 20px 10px;
+                    .contact-form {
+                        textarea {
+                            max-width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

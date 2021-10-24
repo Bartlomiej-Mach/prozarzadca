@@ -12,20 +12,139 @@
     <!-- headings -->
     <script src="/src/scripts/head/head.js"></script>
 
-    <!-- swiper link -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-
 </head>
 <body>
     
 
     <script src="../scripts/components/navigation/navigation-component-primary.js"></script>
 
+    <header class="dashboard-section-secondary" id="secondary-header">
+        <div class="container">
+            <div class="dashboard-mini-container">
+                <div class="dashboard-mini-container__heading-holder">
+                    <h1 class="dashboard-mini-container__heading-holder--heading">
+                        h1
+                    </h1>
+                </div>
+                <div class="dashboard-mini-container__subheading-holder">
+                    <h4 class="dashboard-mini-container__subheading-holder--subheading">
+                        kluczowe
+                    </h4>
+                </div>
+                <div class="dashboard-mini-container__paragraph-holder">
+                    <p class="dashboard-mini-container__paragraph-holder--paragraph">
+                        Cos o firmie reklowy tekst
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="dashboard-mini-container-bg-img contact-img"></div>
+    </header>
+
+    <main class="company-contact-section" id="primary-company-contact">
+        <div class="container">
+            <div class="contact-content-form-container">
+                <div class="contact-content-form-container__content-holder--container">
+                    <div class="contact-content-form-container__content-holder--container--content">
+                        <h2 class="contact-content-form-container__content-holder--container--content--heading">
+                            Dane kontaktowe
+                        </h2>
+                        <h4 class="contact-content-form-container__content-holder--container--content--subheading">
+                            Biuro
+                        </h4>
+                        <span class="contact-content-form-container__content-holder--container--content--contact-text">
+                            ul. Kluczowksa 2a <br>
+                            32-300 Olkusz
+                        </span>
+                        <h4 class="contact-content-form-container__content-holder--container--content--subheading">
+                            Bezpośredni kontakt
+                        </h4>
+                        <span class="contact-content-form-container__content-holder--container--content--contact-text">
+                            Łukasz Stach <br>
+                            Tel: <a href="tel:606 936 554">+48 606 936 554</a> <br>
+                            NIP: 637-188-75-55 <br>
+                            e-mail: <a href="mailto:prozarządca@gmail.com">prozarządca@gmail.com</a> 
+                        </span>
+                    </div>
+                    <div class="contact-content-form-container__content-holder--container--links">
+                        <h3 class="contact-content-form-container__content-holder--container--links--heading">
+                            Zobacz też
+                        </h3>
+                        <a href="./stoki-magazynowe.html" class="btn-secondary">
+                            Stoki magazynowe
+                            <img src="../assets/svg/arrow-right.svg">
+                        </a>
+                        <a href="./magazyny.html" class="btn-secondary">
+                            Nasze magazyny
+                            <img src="../assets/svg/arrow-right.svg">
+                        </a>
+                        <a href="./zarzadzanie-nieruchomosciami.html" class="btn-secondary">
+                            Zarządzanie nieruchomościami
+                            <img src="../assets/svg/arrow-right.svg">
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-content-form-container__form-holder">
+                    <form action="https://formsubmit.co/bartekmachu@gmail.com" method="POST" class="contact-form">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/src/pages/sukces.html">
+                        <input type="hidden" name="_subject" value="Wiadomość ze strony">
+                        <input type="text" name="_honey" style="display: none;">
+                        <input type="hidden" name="_captcha" value="false"> 
+                        <input 
+                            type="text" 
+                            placeholder="Imię i nazwisko*" 
+                            name="Imie&nbsp;i&nbsp;nazwisko"
+                            required>
+                        <input 
+                            type="email" 
+                            placeholder="Adres&nbsp;e-mail*" 
+                            name="Adres email"
+                            required>
+                        <input 
+                            
+                            type="tel" 
+                            id="telefon" 
+                            name="Telefon" 
+                            placeholder="Numer&nbsp;telefonu*"
+                            required>
+                        <textarea 
+                            name="Wiadomosc" 
+                            id="wiadomosc"  
+                            placeholder="Wiadomość..."
+                            required></textarea>
+
+                        <button type="submit">
+                            <a href="#" class="btn-primary">
+                                <span class="button-value">
+                                    Wyślij
+                                </span>
+                            </a>
+                        </button>
+                    </form>
+                </div>
+            </div>            
+        </div>
+    </main>
+
+    <section class="map-contact-section">
+        <div class="container">
+            <div class="map-contact-container">
+                <iframe 
+                    class="map-contact-container--map"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d757.9357907226308!2d19.552856141256616!3d50.284797598895025!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716e39ab2ecc6df%3A0x6fb39960bc817847!2sKluczewska%202A%2C%2032-300%20Olkusz!5e0!3m2!1spl!2spl!4v1635075963947!5m2!1spl!2spl"  
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
     <script src="../scripts/components/Footer/footer-component.js"></script>
 
 
 
     <script src="../scripts/components/Navigation/navigation.js"></script>
+    <script src="../edycja/kontakt/kontakt.js"></script>
 
 </body>
 </html>
