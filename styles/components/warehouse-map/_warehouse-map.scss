@@ -1,0 +1,106 @@
+.popup-map {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    display: none;
+    opacity: 0;
+    background-color: rgba($color: $color-black, $alpha: 0.9);
+    .popup-map-container {
+        width: 100%;
+        .container {
+            .popup-map-holder {
+                width: 100%;
+                height: 100vh;
+                flex-direction: column;
+                position: relative;
+                justify-content: center;
+                display: none;
+                opacity: 0;
+                &__button-name-holder {
+                    position: relative;
+                    margin-bottom: 25px;
+                    .close-popup-button {
+                        width: 50px;
+                        height: 50px;
+                        background-color: transparent;
+                        border: none;
+                        position: absolute;
+                        right: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        cursor: pointer;
+                        span {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            &::before,
+                            &::after {
+                                content: '';
+                                width: 25px;
+                                height: 2px;
+                                background-color: $color-white;
+                                position: absolute;
+                            }
+                            &::before {
+                                transform: rotate(-45deg);
+                            }
+                            &::after {
+                                transform: rotate(45deg);
+                            }
+                        }
+                        
+                    }
+                    &--heading {
+                        color: $color-yellow;
+                    }
+                }
+                &__map-holder {
+                    display: flex;
+                    justify-content: center;
+                    &--map {
+                        border: none;
+                        width: 100%;
+                        height: 440px;
+                    }
+                }
+            }
+            .map--open {
+                display: flex;
+                animation: openPopup .3s .6s forwards;
+            }
+        }
+    }
+}
+
+.popup--open {
+    display: flex;
+    animation: openPopup .3s .2s forwards;
+}
+
+
+@include break-point-down(md) {
+    .popup-map {
+        .popup-map-container {
+            .container {
+                .popup-map-holder {
+                    &__button-name-holder {
+                        .close-popup-button {
+                            top: -150%;
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}
+
+@keyframes openPopup {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}

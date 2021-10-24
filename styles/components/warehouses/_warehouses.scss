@@ -1,0 +1,186 @@
+.warehouse-section {
+    width: 100%;
+    margin-top: 80px;
+    .container {
+        .warehouse-section-container {
+            width: 100%;
+            &__content-holder {
+                width: 100%;
+                display: flex;
+                background-color: $color-white;
+                margin-bottom: 30px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                &--slider {
+                    width: 420px;
+                    .swiper {
+                        width: 100%;
+                        height: 100%;
+                        .swiper-wrapper {
+                            width: 100%;
+                            .swiper-slide {
+                                width: 100%;
+                                .warehouse-slider-img {
+                                    width: 100%;
+                                    height: 100%;
+                                    background-position: center;
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                    pointer-events: none;
+                                }
+                                .m1a {
+                                    background-image: url('../assets/imgs/magazins/magazine1b.jpg');
+                                }
+                                .m1b {
+                                    background-image: url('../assets/imgs/magazins/magazine1a.jpg');
+                                }
+                                .m2a {
+                                    background-image: url('../assets/imgs/magazins/magazine2b.jpg');
+                                }
+                                .m2b {
+                                    background-image: url('../assets/imgs/magazins/magazine2a.jpg');
+                                }
+                                .m3a {
+                                    background-image: url('../assets/imgs/magazins/magazine3a.jpg');
+                                }
+                                .m3b {
+                                    background-image: url('../assets/imgs/magazins/magazine3b.jpg');
+                                }
+                            }
+                        }
+                        .swiper-pagination {
+                            span {
+                                width: 30px;
+                                height: 15px;
+                                background-color: $color-yellow-active;
+                                opacity: 1;
+                                border-radius: 5px;
+                            }
+                            .swiper-pagination-bullet-active {
+                                background-color: $color-yellow;
+                            }
+                        }
+                    }
+                }
+                &--content {
+                    position: relative;
+                    padding: 15px 30px 70px 30px;
+                    .warehouse-heading {
+                        margin-bottom: 15px;
+                    }
+                    .warehouse-paragraph {
+                        display: block;
+                        position: relative;
+                        ul {
+                            margin: 5px 0 0 30px;
+                            li {
+                                font-size: $font-text;
+                                list-style: disc;
+                                @include break-point-down(mb) {
+                                    font-size: $font-mobile;
+                                }
+                            }  
+                        }
+                    }
+                    .warehouse-button-holder {
+                        margin-top: 50px;
+                        display: flex;
+                        .btn-primary:nth-child(2) {
+                            margin-left: 15px;
+                        }
+                    }
+                    .is-active {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        padding: 15px 30px 15px 30px;
+                        background-color: $color-turquoise;
+                        .is-active--name {
+                            font-weight: $font-semi-bold;
+                            color: $color-white;
+                            &:first-child {
+                                display: none;
+                            }
+                            i {
+                                margin-left: 6px;
+                                font-size: 20px;
+                                @include break-point-down(mb) {
+                                    font-size: $font-regular;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+
+            .warehouse--deactivation {
+                .warehouse-section-container__content-holder--content {
+                    .warehouse-heading {
+                        opacity: .3;
+                    }
+                    .warehouse-paragraph {
+                        opacity: .3;
+                    }
+                    .warehouse-button-holder  {
+                        opacity: .3;
+                        .btn-primary:last-child {
+                            display: none;
+                        }
+                    }
+                    .is-active {
+                        background-color: $color-valid-red;
+                        .is-active--name {
+                            display: none;
+                            &:first-child {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }        
+    }
+}
+
+
+@include break-point-down(md) {
+    .warehouse-section {
+        margin-top: 40px;
+        .container {
+            .warehouse-section-container {
+                &__content-holder {
+                    flex-direction: column;
+                    &--slider {
+                        width: 100%;
+                        .swiper {
+                            height: 180px;
+                        }
+                    }
+                    &--content {
+                        padding: 15px 10px 86px 10px;
+                        .warehouse-button-holder {
+                            margin-top: 30px;
+                            align-items: flex-start;
+                            flex-direction: column;
+                            @include break-point-down(mb) {
+                                align-items: none;
+                                .btn-primary {
+                                    width: 100%;
+                                }
+                            }
+                            .btn-primary:nth-child(2) {
+                                margin: 10px 0 0 0;
+                            }
+                        }
+                        .is-active  {
+                            padding: 15px 10px 15px 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
