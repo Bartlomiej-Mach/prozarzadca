@@ -18,6 +18,9 @@
     <!-- swiper link -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -217,7 +220,7 @@
                     </h2>
                 </div>
 
-                <div class="baners-container__baner-holder">
+                <div class="baners-container__baner-holder" data-aos="fade-right">
                     <div class="baners-container__baner-holder--img-container baner1-img">
                         
                     </div>
@@ -256,7 +259,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="baners-container__baner-holder baner-reverse">
+                <div class="baners-container__baner-holder baner-reverse" data-aos="fade-left">
                     <div class="baners-container__baner-holder--img-container baner2-img">
                         
                     </div>
@@ -301,7 +304,7 @@
 
     <section class="about-company-section" id="-primary-about-company">
         <div class="container">
-            <div class="about-container">
+            <div class="about-container" data-aos="fade-right">
                 <div class="about-container__heading-holder">
                     <h2 class="about-container__heading-holder--heading">
                         ROZWIJAJĄCA SIĘ SPÓŁKA
@@ -393,7 +396,7 @@
                                 </a>
                             </li>
                             <li class="social-list--item">
-                                <a href="#" rel="noreferrer" target="_blank">
+                                <a href="tel:606 936 554" rel="noreferrer">
                                     <i class="fas fa-phone-square-alt"></i>
                                 </a>
                             </li>
@@ -413,5 +416,9 @@
     <script src="./scripts/components/Dashboard-primary/dashboard-primary-slider.js"></script>
     <script src="./edycja/start/start.js"></script>
     <script src="./scripts/components/Navigation/navigation.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

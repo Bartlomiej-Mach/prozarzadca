@@ -25,6 +25,8 @@
                             z-index: 1;
                             &__heading-holder {
                                 margin-bottom: 15px;
+                                opacity: 0;
+                                animation: showOn .3s .2s forwards ease-in-out;
                                 span {
                                     font-size: $font-h1-desktop;
                                     font-weight: $font-regular;
@@ -36,9 +38,12 @@
                                         line-height: 44px;
                                     }
                                 }
+
                             }
                             &__subheading-holder {
                                 margin-bottom: 30px;
+                                opacity: 0;
+                                animation: showOn .3s .4s forwards ease-in-out;
                                 &--subheading {
                                     text-transform: uppercase;
                                 }
@@ -46,6 +51,12 @@
                             &__paragraph-holder {
                                 margin-bottom: 40px;
                                 max-width: 619px;
+                                opacity: 0;
+                                animation: showOnDown .3s .6s forwards ease-in-out;
+                            }
+                            &__button-holder {
+                                opacity: 0;
+                                animation: showOnDown .3s .8s forwards ease-in-out;
                             }
                         }
                     }
@@ -145,5 +156,25 @@
                 }
             }
         }
+    }
+}
+
+
+@keyframes showOn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    } to {
+       
+        opacity: 1;
+    }
+}
+@keyframes showOnDown {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    } to {
+        
+        opacity: 1;
     }
 }

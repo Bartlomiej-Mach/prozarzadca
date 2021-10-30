@@ -64,7 +64,7 @@ document.write(`
                             </a>
                         </li>
                         <li class="social-list--item">
-                            <a href="#" rel="noreferrer" target="_blank">
+                            <a href="tel:606 936 554" rel="noreferrer">
                                 <i class="fas fa-phone-square-alt"></i>
                             </a>
                         </li>
