@@ -1,9 +1,10 @@
 document.write(`
+
     <nav class="navigation-section" id="primary-navigation">
         <div class="navigation-desktop">
             <div class="container">
                 <div class="logo-langue-container">
-                    <a href="../index.html" class="logo-langue-container__logo-holder">
+                    <a href="https://www.prozarzadca.pl/" class="logo-langue-container__logo-holder">
                         <img src="../assets/imgs/logo/logo.png" alt="Prorzadca Logo" title="Prorzadca Logo" class="logo-langue-container__logo-holder--logo">
                     </a>
                     <div class="logo-langue-container__langue-holder">
@@ -20,22 +21,22 @@ document.write(`
                 <div class="primary-navigation-container">
                     <ul class="nav-list">
                         <li class="nav-list--item">
-                            <a href="../index.html">start</a>
+                            <a href="https://www.prozarzadca.pl/">start</a>
                         </li>
                         <li class="nav-list--item">
-                            <a href="../pages/o-nas.html">o nas</a>
+                            <a href="../pages/o-nas">o nas</a>
                         </li>
                         <li class="nav-list--item">
-                            <a href="../pages/magazyny.html">magazyny</a>
+                            <a href="../pages/magazyny">magazyny</a>
                         </li>
                         <li class="nav-list--item">
-                            <a href="../pages/zarzadzanie-nieruchomosciami.html">zarzadzanie nieruchomosciami</a>
+                            <a href="../pages/zarzadzanie-nieruchomosciami">zarzadzanie nieruchomosciami</a>
                         </li>
                         <li class="nav-list--item">
-                            <a href="../pages/stoki-magazynowe.html">stoki magazynowe</a>
+                            <a href="../pages/stoki-magazynowe">stoki magazynowe</a>
                         </li>
                         <li class="nav-list--item">
-                            <a href="../pages/kontakt.html">kontakt</a>
+                            <a href="../pages/kontakt">kontakt</a>
                         </li>
                     </ul>
                 </div>
@@ -44,7 +45,7 @@ document.write(`
 
         <div class="navigation-mobile">
             <div class="logo-langue-hamburger-container">
-                <a href="../index.html" class="logo-langue-hamburger-container__logo-holder">
+                <a href="https://www.prozarzadca.pl/" class="logo-langue-hamburger-container__logo-holder">
                     <img src="../assets/imgs/logo/logo.png" alt="Prorzadca Logo" title="Prorzadca Logo" class="logo-langue-hamburger-container__logo-holder--logo">
                 </a>
                 <div class="logo-langue-hamburger-container__langue-hamburger-holder">
@@ -62,22 +63,22 @@ document.write(`
                 <div class="logo-langue-hamburger-container__mobile-menu-holder">
                     <ul class="nav-list">
                         <li class="nav-list--item">
-                            <a href="../index.html">start</a>
+                            <a href="https://www.prozarzadca.pl/">start</a>
                         </li>
                         <li class="nav-list--item">
-                            <a href="../pages/o-nas.html">o nas</a>
+                            <a href="../pages/o-nas">o nas</a>
                         </li>
                         <li class="nav-list--item">
-                            <a href="../pages/magazyny.html">magazyny</a>
+                            <a href="../pages/magazyny">magazyny</a>
                         </li>
                         <li class="nav-list--item">
-                            <a href="../pages/zarzadzanie-nieruchomosciami.html">zarzadzanie nieruchomosciami</a>
+                            <a href="../pages/zarzadzanie-nieruchomosciami">zarzadzanie nieruchomosciami</a>
                         </li>
                         <li class="nav-list--item">
-                            <a href="../pages/stoki-magazynowe.html">stoki magazynowe</a>
+                            <a href="../pages/stoki-magazynowe">stoki magazynowe</a>
                         </li>
                         <li class="nav-list--item">
-                            <a href="../pages/kontakt.html">kontakt</a>
+                            <a href="../pages/kontakt">kontakt</a>
                         </li>
                     </ul>
                 </div>

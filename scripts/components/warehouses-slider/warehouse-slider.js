@@ -20,9 +20,6 @@ const closePopup = () => {
     const buttonOpener = document.querySelectorAll('.map-opener');
     const mapHolder = document.querySelectorAll('.popup-map-holder');
 
-
-    console.log(buttonOpener);
-
     buttonExit.forEach(element => {
         element.addEventListener('click', () => {
             popupHolder.classList.remove('popup--open');
