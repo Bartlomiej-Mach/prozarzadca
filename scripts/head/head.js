@@ -10,4 +10,10 @@ document.write(`
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+
+    <meta property="og:title" content="Prozarzadca - wynajem magazynów, skóp stoków magazynowych" />
+    <meta property="og:image" content="../assets/imgs/baner/baner.png" />
+    <meta property="og:description" content="Skup zalgeających stoków magazynowych, wynajem powierzchni magazynowej, specjalność w zarządzaniu nieruchomościami" />
+
+
 `);
