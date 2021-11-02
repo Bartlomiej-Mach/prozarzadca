@@ -3,6 +3,7 @@
     padding: 140px 0 100px 0;
     .container {
         .baners-container {
+            overflow: hidden;
             width: 100%;
             &__heading-holder {
                 margin-bottom: 40px;

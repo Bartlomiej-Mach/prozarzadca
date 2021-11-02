@@ -791,6 +791,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .main-section .container .baners-container {
+  overflow: hidden;
   width: 100%;
 }
 

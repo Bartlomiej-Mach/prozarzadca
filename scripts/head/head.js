@@ -11,9 +11,10 @@ document.write(`
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
-    <meta property="og:title" content="Prozarzadca - wynajem magazynów, skóp stoków magazynowych" />
+    <meta property="og:title" content="Prozarzadca - Wynajem magazynów, skup stoków magazynowych, najlepsze ceny w Olkuszu" />
     <meta property="og:image" content="../assets/imgs/baner/baner.png" />
     <meta property="og:description" content="Skup zalgeających stoków magazynowych, wynajem powierzchni magazynowej, specjalność w zarządzaniu nieruchomościami" />
 
+    <meta name="keywords" content="hale magazynowe, magazyn, magazyny, hale produkcyjne olkusz, hala, zarządca nieruchomości, chłodnie, hala produkcyjna, wynajem hal, hale na wynajem, biura, olkusz, małopolskie, śląskie">
 
 `);
