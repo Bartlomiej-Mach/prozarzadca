@@ -9,19 +9,19 @@ let content = {
     
     glownyNapis1: "prozarzadca",
     naglowek1: "Łukasz Stach",
-    paragraf1: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum culpa odio architecto temporibus modi omnis doloremque ad error, commodi vero eligendi deleniti, eius, at reprehenderit autem deserunt! Earum, dicta fugit!",
+    paragraf1: "Wynajem hal produkcyjnych oraz magazynów na terenie Olkusza. Skup zalegających stoków magazynowych oraz zarządzaniem i administrowanie nieruchomościami!",
 
     // slaid numer 2 
 
     glownyNapis2: 'nasze magazyny',
-    naglowek2: 'sprawdz magazyny',
-    paragraf2: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum culpa odio architecto temporibus modi omnis doloremque ad error, commodi vero eligendi deleniti, eius, at reprehenderit autem deserunt! Earum, dicta fugit!",
+    naglowek2: 'sprawdź magazyny',
+    paragraf2: "Szukasz odpowiedniego miejsca na przechowanie swoich rzeczy? Nie mogłeś trafić lepiej! Nasze Hale produkcyjne idelanie spełnią twoje oczekiwania!",
 
 
     // slaid numer 3
     glownyNapis3: 'stoki magazynowe',
     naglowek3: 'skup stoków magazynowych',
-    paragraf3: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum culpa odio architecto temporibus modi omnis doloremque ad error, commodi vero eligendi deleniti, eius, at reprehenderit autem deserunt! Earum, dicta fugit!",
+    paragraf3: "Masz zalegający towar i nie wiesz co z nim zrobić? Skontaktuj się z nami z chęcia przyjmiemy twoje niepotrzebne rzeczy!",
     
 
     /* 

@@ -8,8 +8,8 @@ let content = {
     */
 
         glownyNapis1: "Kontakt",
-        naglowek1: "Kluczowe informacje",
-        paragraf1: "Tutaj troche tekstu reklamowego opwiadającego o firmie Tutaj troche tekstu reklamowego opwiadającego o firmie Tutaj troche tekstu reklamowego opwiadającego o firmie ",
+        naglowek1: "ZADZWOŃ TERAZ",
+        paragraf1: "Zapraszamy do Kontaktu. Odpowiadamy najszybciej jak to możliwe.",
 
 
     /* 

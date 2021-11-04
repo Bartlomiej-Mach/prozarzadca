@@ -7,8 +7,8 @@ let content = {
     */
 
         glownyNapis1: "stoki magazynowe",
-        naglowek1: "Kluczowe informacje",
-        paragraf1: "Tutaj troche tekstu reklamowego opwiadającego o firmie Tutaj troche tekstu reklamowego opwiadającego o firmie Tutaj troche tekstu reklamowego opwiadającego o firmie ",
+        naglowek1: "KUPIMY TWOJE STOKI!",
+        paragraf1: "Masz zalegający towar i nie wiesz co z nim zrobić? Skontaktuj się z nami z chęcia przyjmiemy twoje niepotrzebne rzeczy!",
 
 
     /* 
@@ -27,8 +27,8 @@ let content = {
 
     //baner numer3
 
-        baner3naglowek: "REKLAMOWY TEKST",
-        baner3paragraf: "Przyjmujemy bardzo szeroki wachlarz towarów. Cechuje nas elastyczność.",
+        baner3naglowek: "SZYBKOŚĆ",
+        baner3paragraf: "Kompleksowa obsługa całego procesu sprzedaży! Natychmiastowe odzyskanie gotówki zamrożonej w zalegającym towarze",
 
 
 

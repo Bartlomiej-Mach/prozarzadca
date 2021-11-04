@@ -8,8 +8,8 @@ let content = {
     */
 
         glownyNapis1: "ZARZĄDZANIE NIERUCHOMOŚCIAMI",
-        naglowek1: "Kluczowe informacje",
-        paragraf1: "Tutaj troche tekstu reklamowego opwiadającego o firmie Tutaj troche tekstu reklamowego opwiadającego o firmie Tutaj troche tekstu reklamowego opwiadającego o firmie ",
+        naglowek1: "TWÓJ PARTNER W ZARZĄDZANIU NIERUCHOMOŚCIĄ",
+        paragraf1: "Aktywne doradztwo i Planowanie działań, Zarządzanie i Administrowanie Nieruchomością, obsługa Finansowo-Księgowa oraz Prawna",
 
 
     /* 
