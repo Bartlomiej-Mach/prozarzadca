@@ -61,6 +61,7 @@ h3 {
     font-size: $font-h3-desktop;
     font-weight: $font-regular;
     font-family: $font-anton;
+    line-height: $font-h3-desktop;
     @include break-point-down(md) {
         font-size: $font-h3-mobile;
         line-height: $font-h3-mobile;

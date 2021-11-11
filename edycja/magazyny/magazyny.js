@@ -8,8 +8,8 @@ let content = {
     */
 
         glownyNapis1: "nasze magazyny",
-        naglowek1: "Kluczowe informacje",
-        paragraf1: "Tutaj troche tekstu reklamowego opwiadającego o firmie Tutaj troche tekstu reklamowego opwiadającego o firmie Tutaj troche tekstu reklamowego opwiadającego o firmie ",
+        naglowek1: "NASZA OFERTA",
+        paragraf1: "Szukasz odpowiedniego miejsca na przechowanie swoich rzeczy? Nie mogłeś trafić lepiej! Nasze Hale produkcyjne idelanie spełnią twoje oczekiwania!",
 
 
     /* 

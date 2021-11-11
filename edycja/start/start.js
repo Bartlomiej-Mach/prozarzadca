@@ -46,7 +46,7 @@ let content = {
     */
 
     oMalyNaglowek: 'poznaj nas bliżej',
-    oParagraf: `Wynajmem powierzchni Prod Magazynowych zajmujemy się od ponad 20 lat. Początki firmy
+    oParagraf: `Wynajmem powierzchni Produkcyjno magazynowych zajmujemy się od ponad 20 lat. Początki firmy
                 sięgają roku 1998– to wtedy wynajęliśmy pierwszą...`,
 
 

@@ -8,7 +8,7 @@ let content = {
 
         glownyNapis1: "o frimie",
         naglowek1: "Kluczowe informacje",
-        paragraf1: "Tutaj troche tekstu reklamowego opwiadającego o firmie Tutaj troche tekstu reklamowego opwiadającego o firmie Tutaj troche tekstu reklamowego opwiadającego o firmie ",
+        paragraf1: "Poszukujesz magazynu, Hali Produkcyjnej - zapraszamy do kontaktu. Posiadamy około 6000 mkw pow produkcyjnej, jesteśmy w stanie wybudować halę specjalnie skrojoną pod Twoje potrzeby.",
 
 
     
